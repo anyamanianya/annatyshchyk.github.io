@@ -1,0 +1,79 @@
+form{
+    background-color: #e5ebff;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    border-radius: 5px;
+}
+form .block{
+    display: flex;
+    flex-direction: column;
+}
+form .left{
+    margin-right: 20px;
+}
+textarea{
+    height: 100%;
+    border-radius: 5px;
+    padding: 20px;
+    font-family: "EB Garamond", serif;
+    font-size: 20px;
+    border: 3px solid #afc0ff;
+}
+input[type=submit]{
+    font-family: "EB Garamond", serif;
+    font-size: 20px;
+    color:#333333;
+    background-color: #afc0ff;
+}
+input[type=submit]:hover{
+    background-color: #95acfe;
+    border-color: #95acfe;
+}
+input:hover{
+    cursor: pointer;
+}
+form h3{
+    color: #333333;
+}
+label, input{
+    padding: 10px;
+    border-radius: 5px;
+}
+#fname, #lname, #ph_number, #email{
+    font-family: "EB Garamond", serif;
+    font-size: 15px;
+}
+input{
+    margin-bottom: 10px;
+    border: 3px solid #afc0ff;
+}
+
+iframe{
+    width: 50%;
+    height: 200px;
+    border-radius: 5px;
+    border: 3px solid #081e5c;
+}
+.get-in-touch{
+    background-color: #afc0ff;
+    height: fit-content;
+    padding: 40px 100px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.get-in-touch h1{
+    margin-bottom: 40px;
+    width: fit-content;
+}
+.get-in-touch svg{
+    height: 30px;
+    width: 30px;
+    margin-right: 15px;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
