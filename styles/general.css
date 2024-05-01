@@ -337,18 +337,18 @@ img{
     border-radius: 5px;
 }
 .art-therapy-img{
-    background-image: url(./img/event/art.jpg);
+    background-image: url(../img/event/art.jpg);
 }
 .retreat-img{
-    background-image: url(./img/event/retreat.jpg);
+    background-image: url(../img/event/retreat.jpg);
     background-position-y:bottom;
 }
 .walks-img{
-    background-image: url(./img/event/walks.jpg);
+    background-image: url(../img/event/walks.jpg);
     background-position-y:bottom;
 }
 .music-img{
-    background-image: url(./img/event/music.jpg);
+    background-image: url(../img/event/music.jpg);
     background-position-y: -150px;
 }
 
