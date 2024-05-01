@@ -35,6 +35,9 @@ header{
     height: 70px;
     margin-right: 30px;
 }
+.mobile-copyright{
+    display: none;
+}
 
 main{
     background-color: white;
