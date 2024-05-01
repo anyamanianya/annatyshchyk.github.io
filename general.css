@@ -1,0 +1,389 @@
+
+/* style rules reset */
+*{
+    margin: 0;
+    padding:0;
+    border:0;
+    text-decoration: none;
+}
+
+
+/* general style rules */
+hr{
+    border: #081f5c 1px solid;
+    margin-bottom: 20px;
+}
+body{
+    background-color: white;
+}
+p{
+    font-family: "EB Garamond", serif;
+}
+h1, h2, h3, h4{
+    font-family: "Fjalla One", sans-serif;
+}
+header{
+    height: fit-content;
+    padding: 15px 15px 15px 30px;
+    display: flex;
+    background-color: #334eac;
+    color:white;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-icon{
+    height: 70px;
+    margin-right: 30px;
+}
+
+main{
+    background-color: white;
+    color:#081f5c;
+}
+footer{
+    background-color: #334eac;
+    color: white;
+    height: 100px;
+    font-size: 13px;
+    padding: 30px;
+    display: flex;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-top: 20px;
+}
+header div{
+    display: flex;
+    align-items: center;
+}
+header ul li:hover{
+    text-decoration: underline;
+}
+header ul{
+    display: flex;
+    justify-content: space-around;
+    height: fit-content;
+    color: #f2f0de;
+    float:right;
+}
+header ul li{
+    display: block;
+    margin: 10px 10px;
+    font-size: 20px;
+    color: white;
+}
+header nav{
+    float: right;
+}
+
+/*
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    background-color: #081f5c;
+    height: fit-content;
+    color: #f2f0de;
+}
+nav ul li{
+    display: block;
+    margin: 10px 0;
+}
+nav ul h4{
+    text-align: center;
+}
+nav ul a{
+    width: 100%;
+    justify-content: center;
+}
+nav ul a:hover{
+    background-color: #bad6eb;
+    color: #081f5c !important;
+}
+*/
+
+footer ul{
+    list-style: none;
+}
+footer ul li:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+/* breadcrumbs navigation */
+.breadcrumbs{
+    background-color: white;
+    border-bottom: 1px solid #081e5c;
+}
+.breadcrumbs ul li{
+    display: inline-block;
+    padding: 6px 12px 6px 0;
+}
+.breadcrumbs a{
+    color:#081e5c;
+}
+.breadcrumbs a:hover{
+    text-decoration: underline;
+}
+.sticky-navigation{
+    position: sticky;
+    top:0;
+    z-index: 999;
+}
+
+/* link style rules */
+a:hover{
+    cursor: pointer;
+}
+a:hover h2{
+    text-decoration: underline;
+}
+.svgs a:hover svg{
+    fill:#081e5c;
+    background-color: white;
+    border-radius: 90px;
+}
+ul a{
+    color:white;
+}
+a{
+    color: #081e5c;
+}
+a:visited{
+    color: #1a2e66;
+}
+a:hover{
+    color:#334eac;
+}
+
+/* id's style rules */
+#wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+#no-wrapper{
+    padding: 30px 100px;
+    background-color: #bad6eb;
+}
+#main-heading{
+    padding: 20px 30px;
+    font-size: 50px;
+}
+#hamburger{
+    display: none;
+}
+#navContainer{
+    display: none;
+}
+
+
+/* text decoration */
+.quote{
+    font-style: italic;
+}
+.learn-more h2{
+    display: block;
+    width:fit-content;
+    color:white;
+    z-index: 99;
+    margin: 20px auto;
+}
+.one-image-block h2{
+    padding-bottom: 15px;
+}
+.news-single-block p{
+    font-size: 14px;
+}
+.news-single-block h2{
+    margin-bottom: 10px;
+}
+.content-main div h3{
+    padding-bottom: 30px;
+}
+
+
+
+/* image style rules */
+
+img{
+    border-radius: 5px;
+}
+.socials-logo{
+    height: 40px;
+}
+
+.content-image{
+    height: 200px;
+    transition: transform .2s;
+    border-radius: 5px;
+}
+.content-image:hover{
+    transform: scale(1.1);
+}
+/*
+.one-image-block img{
+    height: 300px;
+    margin-bottom: 30px;
+}
+*/
+.one-image-block-event{
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+.three-image-block{
+    display: flex; 
+    position: relative;
+    height:inherit;
+    flex-direction: column;
+    justify-content: space-between;
+    border-top: 3px solid #081e5c;
+    padding-top: 30px;
+}
+.three-image-block img{
+    height: 150px;
+}
+.three-image-block div{
+    padding: 10px;
+}
+.event-time{
+    font-weight: bold;
+}
+
+
+/* major content blocks style rules */
+.content-main{
+    display: flex;
+    justify-content: space-around;
+}
+.content-main div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.mission{
+    display: flex;
+    justify-content: space-around;
+    vertical-align: bottom;
+    height: 250px;
+    color: #6377be;
+}
+.mission div{
+    background-image: linear-gradient(transparent 20%,  #6377be 80%);
+    margin-right: 30px;
+}
+.mission h2{
+    margin: 0 auto 20px;
+}
+.mission img{
+    height: 100%;
+    flex: 1;
+    fill: white;
+}
+.learn-more{
+    padding: 10px;
+    text-align: justify;
+    border-radius: 5px;
+}
+.content-main div{
+    padding: 20px;
+    width: 25%;
+}
+.one-image-block{
+    width: 40%;   
+    padding: 30px;
+    height: fit-content;
+    border-radius: 5px;
+    background-color: white;
+    margin-right: 30px;
+}
+
+.news-single-block{
+    background-color: white;
+    display: flex;
+    border-radius: 5px;
+    height: 150px;
+}
+.news-single-block div{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.news-block{
+    display: flex;
+}
+.footer-links{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.svgs{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.non-visible{
+    display:none;
+}
+.news-single-block-event{
+    width: 150px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.art-therapy-img{
+    background-image: url(../img/event/art.jpg);
+}
+.retreat-img{
+    background-image: url(../img/event/retreat.jpg);
+    background-position-y:bottom;
+}
+.walks-img{
+    background-image: url(../img/event/walks.jpg);
+    background-position-y:bottom;
+}
+.music-img{
+    background-image: url(../img/event/music.jpg);
+    background-position-y: -150px;
+}
+
+
+.diet-block{
+    display: flex;
+}
+.diet-block img{
+    margin-right: 20px !important;
+}
+.diet-block-header{
+    display: flex;
+    vertical-align: middle;
+}
+.diet-block-header h2{
+    margin-right: 10px;
+}
+.diet-block-header .horisontal{
+    flex: 2;
+    height: 2px;
+    background-color: #081e5c;
+    margin: auto 0;
+}
+
+.error-block{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 200px auto;
+}
+.error-block h2, .error-block h4{
+    width: fit-content;
+}
+.error-block img{
+    height: 100px;
+    margin-bottom: 30px;
+}
