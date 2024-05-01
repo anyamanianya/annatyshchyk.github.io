@@ -1,3 +1,11 @@
+@media (min-width: 690px) {
+    textarea{
+        width: 400px;
+    }
+    .mobile-submit{
+        display:none;
+     }
+}
 @media (max-width: 1250px) {
     /* CSS responsive design for index.html*/
     .content-image{
@@ -52,11 +60,12 @@
     .content-image:hover{
         transform: scale(1);
     }
+   
   }
 
 
   @media (max-width: 850px) {
-    /* CSS responsive design for index.html*/
+    /* CSS responsive design for index.html */
     #wrapper{
         width: 100%;
     }
@@ -81,7 +90,7 @@
         height: auto;
     }
 
-    /* CSS responsive design for blog.html*/
+    /* CSS responsive design for blog.html */
     .article-section div{
         flex-direction: column;
     }
@@ -93,6 +102,8 @@
         margin: 20px 0;
         width: 100%;
     }
+   
+    
     
   }
   @media (max-width: 690px) {
@@ -128,4 +139,31 @@
     header h1{
         font-size: 30px;
     }
+
+     /* CSS responsive design for contact.html */
+     form{
+        flex-direction: column;
+     }
+     textarea{
+        width: unset;
+     }
+     input{
+        width:unset;
+     }
+     
+     .desktop-submit{
+        display: none;
+     }
+     .mobile-submit{
+        display: block;
+        margin-top: 20px;
+     }
+     .get-in-touch{
+        flex-direction: column;
+     }
+     .get-in-touch iframe{
+        height: 100px;
+        width: unset;
+        margin-top: 20px;
+     }
 }
