@@ -1,0 +1,47 @@
+main{
+    background-color: #bad6eb !important;
+}
+.article-section{
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+    background-color: white;
+    margin: 30px 0;
+    padding: 20px;
+    border-radius: 5px;
+    color: #081f5c;
+}
+.article-section h2{
+    padding-bottom: 20px;
+}
+.article-section img{
+    width: 300px;
+    height: max-content;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.article-section h4{
+    color:#334eac;
+}
+.older h4{
+    display: none;
+}
+.publication-date{
+    color: olive !important; 
+    font-size: 15px;
+    display: block;
+    margin-right: 10px;
+}
+
+.publisher-name{
+    display: block;
+    font-size: 15px;
+}
+.publication-info{
+    display: flex;
+    margin-top: 20px;
+}
+
+.text-block{
+    margin-right: 10px;
+}
