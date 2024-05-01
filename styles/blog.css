@@ -32,7 +32,6 @@ main{
     display: block;
     margin-right: 10px;
 }
-
 .publisher-name{
     display: block;
     font-size: 15px;
@@ -41,7 +40,6 @@ main{
     display: flex;
     margin-top: 20px;
 }
-
 .text-block{
     margin-right: 10px;
 }
