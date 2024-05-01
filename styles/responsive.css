@@ -60,6 +60,13 @@
     .content-image:hover{
         transform: scale(1);
     }
+    /* CSS responsive design for events.html */
+    .bottom-ad-block{
+        display: none;
+     }
+     .events, .event-block{
+        width: unset;
+     }
    
   }
 
