@@ -1,0 +1,71 @@
+.events{
+    width: 100%;
+    padding: 20px;
+}
+.event-block{
+    background-color: #e5ebff;
+    width: 100%;
+    height: fit-content;
+    margin: 10px auto;
+    border-radius: 5px;
+    padding: 20px;
+}
+.event-descrition{
+    background-color: white;
+    height: fit-content;
+    margin: 10px auto;
+    border-radius: 5px;
+    padding: 20px;
+}
+.event-descrition h3{
+    margin-bottom: 20px;
+}
+table{
+    background-color: white;
+    width: 100%;
+    border-radius: 5px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+th, td{
+    padding: 10px;
+}
+button{
+    padding: 10px 30px;
+    border-radius: 5px;
+    display: block;
+    color: white;
+    background-color: #afc0ff;
+    margin: 0 10px 0 0;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #9cb1ff;
+}
+.diet-block-header{
+    margin-top: 20px;
+}
+.bottom-ad-block{
+    margin-top: 40px;
+}
+.bottom-ad-block .ad{
+    display: flex;
+    justify-content: space-around;
+}
+.bottom-ad-block h1{
+    margin-bottom: 20px;
+}
+.bottom-ad-block img{
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+    transition: transform .2s;
+}
+.bottom-ad-block img:hover{
+    transform: scale(1.1);
+}
+a div{
+    width: 300px;
+}
+
