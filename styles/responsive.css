@@ -112,4 +112,7 @@
         height: 150px;
         margin: 0 0 30px 0;
     }
+    header h1{
+        font-size: 30px;
+    }
 }
