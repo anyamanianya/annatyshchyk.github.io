@@ -67,6 +67,20 @@
      .events, .event-block{
         width: unset;
      }
+
+    /* CSS responsive design for articles */
+    section{
+        flex-direction: column;
+    }
+    article{
+        width: unset;
+    }
+    aside{
+        width: unset;
+    }
+    .main-area-img{
+        background-position-x: center;
+    }
    
   }
 
@@ -108,6 +122,14 @@
     .article-section img{
         margin: 20px 0;
         width: 100%;
+    }
+
+    /* CSS responsive design for articles */
+    .diet-block{
+        flex-direction: column;
+    }
+    .diet-block img{
+        display: none;
     }
    
     
