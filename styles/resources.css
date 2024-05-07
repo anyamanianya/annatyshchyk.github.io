@@ -8,6 +8,7 @@ section{
 .resource-block{
     display: flex;
     justify-content: space-between;
+    padding: 20px;
 }
 .resource-block div{
     width: 45%;
@@ -16,8 +17,6 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.top-block{
     margin-bottom: 20px;
 }
 .resource-icon{
@@ -33,4 +32,7 @@ section{
     padding: 10px;
     color:white;
     width: liknauto;
+}
+ul{
+    list-style:element(\261E);
 }
