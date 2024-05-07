@@ -43,4 +43,5 @@ iframe{
 }
 .top-level{
     display: flex;
+    width: auto;
 }
