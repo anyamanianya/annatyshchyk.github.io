@@ -195,4 +195,7 @@
         margin-top: 20px;
      }
      /* CSS responsive design for resources.html */
+     .resource-block{
+        width: 100%;
+     }
 }
