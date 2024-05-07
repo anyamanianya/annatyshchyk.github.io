@@ -201,4 +201,7 @@
     .top-level{
         flex-direction: column;
     }
+    .resource-icon{
+        margin-bottom: 20px;
+    }
 }
