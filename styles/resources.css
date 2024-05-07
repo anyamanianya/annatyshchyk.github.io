@@ -12,7 +12,7 @@ section{
 }
 .resource-block div{
     width: 45%;
-    padding: 20px;
+    padding: 40px;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -35,4 +35,7 @@ section{
 }
 ul{
     list-style: square;
+}
+li{
+    margin: 10px 0;
 }
