@@ -22,3 +22,9 @@ section{
     width: 70px;
     border-radius: 90px;
 }
+.resource-link{
+    background-color: olive;
+    border-radius: 5px;
+    padding: 10px;
+    color:white;
+}
