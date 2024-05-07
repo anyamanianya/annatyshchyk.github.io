@@ -22,7 +22,7 @@ section{
     width: 120px;
     border-radius: 180px;
 }
-.resource-link{
+.resource-link a{
     background-color: olive;
     border-radius: 5px;
     padding: 10px;
