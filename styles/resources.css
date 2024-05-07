@@ -40,7 +40,11 @@ section{
     margin: 10px 0;
     background-color: #334eac;
     color:white;
+    font-style: bold;
     border-radius: 5px;
     padding: 10px;
     margin-bottom: 10px;
+}
+iframe{
+    border-radius: 5px;
 }
