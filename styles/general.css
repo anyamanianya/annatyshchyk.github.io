@@ -150,12 +150,7 @@ ul a{
 a{
     color: #081e5c;
 }
-a:visited{
-    color: #1a2e66;
-}
-a:hover{
-    color:#334eac;
-}
+
 
 /* id's style rules */
 #wrapper{

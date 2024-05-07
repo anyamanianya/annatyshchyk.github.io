@@ -43,3 +43,9 @@ main{
 .text-block{
     margin-right: 10px;
 }
+a:visited{
+    color: #1a2e66;
+}
+a:hover{
+    color:#334eac;
+}
