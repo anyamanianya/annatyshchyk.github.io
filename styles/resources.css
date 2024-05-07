@@ -25,13 +25,13 @@ section{
     border-radius: 180px;
     margin-bottom: 20px;
 }
-.resource-link a{
-    background-color:rgb(63, 115, 133) !important;
-    border: 2px solid white !important;
+.resource-link{
+    background-color:rgb(63, 115, 133);
+    border: 2px solid white;
     border-radius: 5px;
     padding: 10px;
     color:white;
-    width: liknauto;
+    width: 100%;
 }
 ul{
     list-style: square;
