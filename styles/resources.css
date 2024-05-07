@@ -16,6 +16,7 @@ section{
 .top-level{
     display: flex;
     align-items:center;
+    justify-content: space-between;
 }
 .resource-icon{
     height: 120px;
@@ -28,8 +29,8 @@ section{
 }
 .resource-link{
     width: fit-content;
-    height: 50px;
-    align-items: center;
+    height: fit-content;
+    padding: 10px;
     border-radius: 5px;
     background-color: dimgray;
 }
