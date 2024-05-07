@@ -2,6 +2,13 @@ section{
     margin: 10px;
     border-radius: 5px;
     background-color: lightblue;
-    height: 100px;
-    width: auto;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+.resource-block{
+    width: 40%;
+    height: 200px;
+    background-color: white;
 }
