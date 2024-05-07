@@ -131,9 +131,11 @@
     .diet-block img{
         display: none;
     }
-   
-    
-    
+
+    /* CSS responsive design for resources.html */
+    .resource-block{
+        width: 100%;
+     }
   }
   @media (max-width: 690px) {
     /* CSS responsive design for index.html*/
@@ -194,8 +196,10 @@
         width: unset;
         margin-top: 20px;
      }
-     /* CSS responsive design for resources.html */
-     .resource-block{
-        width: 100%;
-     }
+     
+    /* CSS responsive design for resources.html */
+    .top-level{
+        flex-direction: column;
+    }
+     
 }
