@@ -134,7 +134,7 @@
 
     /* CSS responsive design for resources.html */
     .resource-block{
-        width: 100%;
+        width: unset;
      }
   }
   @media (max-width: 690px) {

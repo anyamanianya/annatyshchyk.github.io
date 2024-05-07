@@ -12,7 +12,6 @@ section{
     flex-direction: column;
     justify-content: center;
     margin: 10px;
-    width: 40%;
     border-radius: 5px;
     padding: 30px;
 }
