@@ -34,7 +34,7 @@ section{
     width: 100%;
 }
 .resource-block a{
-    width: 100%;
+    width: 100% !important;
 }
 ul{
     list-style: square;
