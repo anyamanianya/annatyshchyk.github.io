@@ -201,7 +201,4 @@
     .top-level{
         flex-direction: column;
     }
-    .resource-link{
-        margin: 0 auto;
-    }
 }
