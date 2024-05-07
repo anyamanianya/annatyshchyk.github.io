@@ -33,6 +33,9 @@ section{
     color:white;
     width: 100%;
 }
+.resource-block a{
+    width: 100%;
+}
 ul{
     list-style: square;
 }
