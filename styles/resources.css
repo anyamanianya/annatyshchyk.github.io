@@ -44,6 +44,7 @@ iframe{
 }
 .resource-block ul{
     list-style: none;
+    margin-bottom: 20px;
 }
 .resource-block ul li{
     margin-bottom: 10px;
