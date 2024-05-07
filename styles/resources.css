@@ -4,6 +4,7 @@ section{
     height: fit-content;
     padding: 20px;
     display: flex;
+    justify-content: space-between;
 }
 .resource-block{
     background-color: white;
@@ -18,12 +19,13 @@ section{
     display: flex;
     align-items:center;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 .resource-icon{
     height: 120px;
     width: 120px;
     border-radius: 180px;
-    margin: 0 20px 20px 0;
+    margin-right: 20px;
 }
 .resource-link h3{
     width: fit-content
