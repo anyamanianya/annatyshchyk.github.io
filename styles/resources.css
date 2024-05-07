@@ -41,3 +41,6 @@ section{
 iframe{
     border-radius: 5px;
 }
+.top-level{
+    display: flex;
+}
