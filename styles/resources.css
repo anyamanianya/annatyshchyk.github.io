@@ -5,6 +5,7 @@ section{
     padding: 20px;
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
 }
 .resource-block{
     background-color: white;
