@@ -3,6 +3,7 @@ section{
     background-color: lightblue;
     height: fit-content;
     padding: 20px;
+    display: flex;
 }
 .resource-block{
     background-color: white;
