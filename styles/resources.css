@@ -38,3 +38,6 @@ section{
 iframe{
     border-radius: 5px;
 }
+.resource-block ul{
+    list-style: none;
+}
