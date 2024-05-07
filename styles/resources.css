@@ -24,6 +24,7 @@ section{
     height: 120px;
     width: 120px;
     border-radius: 180px;
+    margin-bottom: 20px;
 }
 .resource-link a{
     background-color: olive;
