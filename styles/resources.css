@@ -45,3 +45,6 @@ iframe{
 .resource-block ul{
     list-style: none;
 }
+.resource-block ul li{
+    margin-bottom: 10px;
+}
